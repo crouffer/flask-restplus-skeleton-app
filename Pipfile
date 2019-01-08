@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+faker = "*"
+requests = "*"
+
+[packages]
+flask-restplus = "*"
+sqlalchemy = "*"
+pytest-cov = "*"
+flask-cors = "*"
+python-dotenv = "*"
+requests = "*"
+authlib = "*"
+six = "*"
+
+[requires]
+python_version = "3.6"
