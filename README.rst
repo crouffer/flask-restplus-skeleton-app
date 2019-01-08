@@ -35,6 +35,8 @@ To run the tests use:
 .. code-block:: bash
 
   cd flask-restplus-skeleton-app
+  pipenv install --dev
+  pipenv shell
   pytest
 
 
